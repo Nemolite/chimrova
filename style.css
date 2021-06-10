@@ -1,11 +1,11 @@
 /*
 Theme Name:     chimrova
 Theme URI:      http://chimrova.uxp.ru
-Description:    Дочерняя тема для темы singlepage 
+Description:    Дочерняя тема для темы posterity 
 Author:         Nemolite (sergey vushnyakov)
 Author URI:     https://vandraren.ru/
-Template:       singlepage
+Template:       posterity
 Version:        1.0.0
 */
 
-@import url("../singlepage/style.css");
+@import url("../posterity/style.css");
