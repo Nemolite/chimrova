@@ -7,3 +7,16 @@
   width: 49.5%;
   float: left;
 }
+
+.chv-news-list {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+  padding: 0px 50px 20px 50px;
+}
+
+.chv-news-one {
+  width: 100%;
+  height: 150px;
+  border: 1px solid green;
+}
