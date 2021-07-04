@@ -20,6 +20,10 @@ function chimrova_scripts_style() {
 	$theme_version = wp_get_theme()->get( 'Version' );
 
 	wp_enqueue_style( 'chimrova-style', get_stylesheet_directory_uri() .'/assets/css/chimrova.css' );
+	wp_enqueue_style( 'magnific-style', get_stylesheet_directory_uri() .'/assets/css/magnific-popup.css' );
+	
+	
+	wp_enqueue_script( 'magnific-script', get_stylesheet_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array(), $theme_version, true );
 	wp_enqueue_script( 'chimrova-script', get_stylesheet_directory_uri() . '/assets/js/chimrova.js', array(), $theme_version, true );
 }
 add_action( 'wp_enqueue_scripts', 'chimrova_scripts_style' );
